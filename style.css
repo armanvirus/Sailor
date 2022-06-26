@@ -179,3 +179,43 @@ nav ul li:first-child{
     transform: translateY(-100px);
     
 }
+
+.block{
+    display: flex;
+    flex-direction: column;
+    background: rgb(57,57,57);
+    color: #fff;
+}
+.inline-block{
+    background: rgb(46,46,46);
+    width: 100%;
+    padding: 30px; 
+}
+.inline-block p{
+    width: 40%;
+    color: #f2f2f2;
+    padding: 10px 0;
+}
+.aquatics{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aquatics div:first-child{
+    min-width: 250px;
+    width: 100%;
+    background: rgb(46,46,46);
+    padding: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.aquatics div:first-child ul{
+    list-style-type: none;
+    margin: 15px 0;
+}
+.aquatics div:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    background: red;
+}
